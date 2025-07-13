@@ -3,14 +3,20 @@
  */
 
 import java.util.Scanner;
+
+// Импортируем класс Scanner для ввода данных
+
 public class Comparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        // Пользователь вводит данные
         System.out.print("Введите первую строку : ");
         String a = sc.nextLine();
 
         System.out.print("Введите вторую строку : ");
         String b = sc.nextLine();
+
+        // Сравниваем значения
         if (a.equals(b)) {
             System.out.println("Строки идентичны");
         } else {
